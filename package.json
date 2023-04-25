@@ -1,0 +1,32 @@
+{
+
+  "name": "cypress-with-bdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+      
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aldimanx",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.7.0",
+    "cypress-cucumber-preprocessor": "^4.0.1",
+    "cypress-xpath": "^2.0.1",
+    "multiple-cucumber-html-reporter": "^3.3.0"
+  },
+  "dependencies": {
+    "moment": "^2.29.4",
+    "xpath": "^0.0.32"
+  }
+}
